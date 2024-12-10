@@ -41,8 +41,7 @@
                 <version>2.11</version>
                 <configuration>
                     <argLine>
-                        --add-opens=java.base/java.lang=ALL-UNNAMED
-                        --add-opens=java.base/java.util=ALL-UNNAMED
+                        --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
                     </argLine>
                 </configuration>
                 <executions>
