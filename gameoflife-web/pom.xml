@@ -109,8 +109,9 @@
                         <version>3.0.0</version>
                         <configuration>
                                 <argLine>
-                                    --add-opens=java.base/java.lang=ALL-UNNAMED
-                                    --add-opens=java.base/java.util=ALL-UNNAMED
+                                    --add-opens java.base/java.lang=ALL-UNNAMED
+                                    --add-opens java.base/java.util=ALL-UNNAMED
+                                    --add-opens java.base/java.io=ALL-UNNAMED
                                 </argLine>
                         </configuration>
                     </plugin>
