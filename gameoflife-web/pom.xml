@@ -106,9 +106,9 @@
                 <plugins>
                     <plugin>
                         <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.0.0</version>
+                        <version>${surefire.version}</version>
                         <configuration>
-                            <skip>true</skip>
+                            <argLine>--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED</argLine>
                         </configuration>
                     </plugin>
                 </plugins>
